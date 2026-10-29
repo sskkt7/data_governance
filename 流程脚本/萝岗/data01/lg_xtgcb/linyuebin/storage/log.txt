@@ -1,0 +1,12 @@
+/data01/lg_xtgcb/linyuebin/storage/orgResult/orgResult20260907.csv
+/etc/host.conf: line 1: bad command `nospoof on'
+/etc/host.conf: line 1: bad command `nospoof on'
+/etc/host.conf: line 1: bad command `nospoof on'
+/etc/host.conf: line 1: bad command `nospoof on'
+/etc/host.conf: line 1: bad command `nospoof on'
+/etc/host.conf: line 1: bad command `nospoof on'
+/etc/host.conf: line 1: bad command `nospoof on'
+/etc/host.conf: line 1: bad command `nospoof on'
+/etc/host.conf: line 1: bad command `nospoof on'
+/etc/host.conf: line 1: bad command `nospoof on'
+/etc/host.conf: line 1: bad command `nospoof on'

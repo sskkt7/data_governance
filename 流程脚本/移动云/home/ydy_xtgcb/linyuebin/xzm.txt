@@ -1,0 +1,1 @@
+set hive.msck.path.validation=ignore;alter table ydy_xtgcbnbxt_db01.ods_dxzt_msgplatform_operation_data_di partition(dtime='20260902') set  location 'hdfs://ns1/user/ydy_xtgcbnbxt_user127/data/flink_ydyp_msgplatform_operation_data/operation_data/2026/09/02';

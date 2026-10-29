@@ -1,0 +1,3 @@
+ydy_sjz_db01.lg_dxzt_db01_dxzt_139mail_freq_cnt,16,0,20260905,139邮箱,
+ydy_sjz_db01.lg_hcyyx_db01_ods_u_bding_info,16,0,20260905,移动云盘,
+ydy_sjznew_db01.imp_ydyp_ods_ablum_saas_pro_photo_file_label_df,16,0,20260905,移动云盘,

@@ -1,0 +1,1 @@
+Sep 07 08:00:05 b73-gz3-sjjcpt-js-059 sendEmail[4012454]: Email was sent successfully!

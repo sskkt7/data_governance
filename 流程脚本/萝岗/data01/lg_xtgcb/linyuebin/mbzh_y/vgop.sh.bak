@@ -1,0 +1,38 @@
+#!/bin/bash
+
+# ========== 清理函数 ==========
+cleanup() {
+    echo ""
+    echo "收到退出信号，开始清理后台进程..."
+    
+    # 杀死整个进程组
+    kill -TERM -$$ 2>/dev/null
+    
+    # 等待进程优雅退出
+    sleep 2
+    
+    # 强制清理残留
+    kill -9 -$$ 2>/dev/null
+    
+    wait 2>/dev/null
+    echo "清理完成，退出"
+    exit 0
+}
+
+# 注册信号处理
+trap cleanup EXIT TERM INT
+
+
+
+
+cd /data01/lg_xtgcb/linyuebin/mbzh_y/
+sudo bash /data01/lg_xtgcb/linyuebin/mbzh/mbzb.sh &
+pid1=$!
+
+sudo bash /data01/lg_xtgcb/linyuebin/mbzh_y/mbzb.sh &
+pid2=$!
+
+# 只等待这两个特定的进程
+wait $pid1 $pid2
+
+sudo bash /data01/lg_xtgcb/linyuebin/mbzh_y/vgop_rate.sh

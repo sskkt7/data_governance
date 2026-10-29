@@ -1,0 +1,2 @@
+ydy_vogp_db01.ts_email_passportinformation_q,139邮箱,14309,NULL,NULL,NULL,NULL,20260809
+ydy_vogp_db01.ts_hcy_gdapp_qd_activeu_d,移动云盘,71208,9260,10027,-0.08,1,20260809

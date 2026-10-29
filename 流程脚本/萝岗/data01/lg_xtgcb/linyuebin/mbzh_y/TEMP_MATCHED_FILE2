@@ -1,0 +1,10 @@
+set mapreduce.map.memory.mb=6144;
+set mapreduce.map.java.opts=-Xmx4608m;
+select 'dx_dw.dw_dxxcx_vgop_28217_for_check','28217链接访问数据_字段监控校验',count(1),date_format(date_sub(current_date,2),'yyyyMMdd') from dx_dw.dw_dxxcx_vgop_28217_for_check where p_day_id=date_format(date_sub(current_date,2),'yyyyMMdd') union all
+select 'dx_dw.dw_dxxcx_vgop_28218','28218账单访问数据',count(1),date_format(date_sub(current_date,2),'yyyyMMdd') from dx_dw.dw_dxxcx_vgop_28218 where p_day_id=date_format(date_sub(current_date,2),'yyyyMMdd') union all
+select 'dx_dw.dw_dxxcx_vgop_28219_for_check','28219链接登录数据_字段监控校验',count(1),date_format(date_sub(current_date,2),'yyyyMMdd') from dx_dw.dw_dxxcx_vgop_28219_for_check where p_day_id=date_format(date_sub(current_date,2),'yyyyMMdd') union all
+select 'dx_dw.dw_dxxcx_vgop_28220_for_check','28220短小2解析日志数据_字段监控校验',count(1),date_format(date_sub(current_date,2),'yyyyMMdd') from dx_dw.dw_dxxcx_vgop_28220_for_check where p_day_id=date_format(date_sub(current_date,2),'yyyyMMdd') union all
+select 'dx_ods.ods_dxxcx1_sendmsg_log','ods_dxxcx1_sendmsg_log',count(1),date_format(date_sub(current_date,2),'yyyyMMdd') from dx_ods.ods_dxxcx1_sendmsg_log where p_day_id=date_format(date_sub(current_date,2),'yyyyMMdd') union all
+select 'lg_sim_db01.campus_card_user','校园卡用户业务已开通信息',count(1),date_format(date_sub(current_date,2),'yyyyMMdd') from lg_sim_db01.campus_card_user where p_day_id=date_format(date_sub(current_date,2),'yyyyMMdd') union all
+select 'dw1.tw_vgop_appid_w','移动认证周渗透率app表',count(1),date_format(date_sub(current_date,2),'yyyyMMdd') from dw1.tw_vgop_appid_w where p_day_id=date_format(date_sub(current_date,2),'yyyyMMdd') union all
+select 'lg_kb_db01.dwd_yzd_ysj_t_imei_org_di','云手机预装设备表',count(1),date_format(date_sub(current_date,2),'yyyyMMdd') from lg_kb_db01.dwd_yzd_ysj_t_imei_org_di where dtime=date_format(date_sub(current_date,2),'yyyyMMdd') 

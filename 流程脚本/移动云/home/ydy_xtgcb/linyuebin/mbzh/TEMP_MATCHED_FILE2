@@ -1,0 +1,6 @@
+set mapreduce.map.memory.mb=6144;
+set mapreduce.map.java.opts=-Xmx4608m;
+set mapreduce.job.priority=HIGH;
+select 'ydy_kb_db01.dwd_zjh_zypt_config_province_df','省份信息',count(1),date_format(date_sub(current_date,1),'yyyyMMdd') from ydy_kb_db01.dwd_zjh_zypt_config_province_df where dtime=date_format(date_sub(current_date,1),'yyyyMMdd')  union all
+select 'ydy_kb_db01.dwd_5gxth_ywglpt_tds_idol_user_zwqd_df','5G新通话明星来电在网清单表',count(1),date_format(date_sub(current_date,1),'yyyyMMdd') from ydy_kb_db01.dwd_5gxth_ywglpt_tds_idol_user_zwqd_df where dtime=date_format(date_sub(current_date,1),'yyyyMMdd')  union all
+select 'ydy_sjznew_db01.imp_ydyp_ods_mas_t_caiyunmarket_prizepool_df','',count(1),date_format(date_sub(current_date,1),'yyyyMMdd') from ydy_sjznew_db01.imp_ydyp_ods_mas_t_caiyunmarket_prizepool_df where dtime=date_format(date_sub(current_date,1),'yyyyMMdd')  

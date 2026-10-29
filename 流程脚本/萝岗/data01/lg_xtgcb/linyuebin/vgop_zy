@@ -1,0 +1,27 @@
+insert into table lg_dg_db01.ods_dg_hive_table_cnt_hour_di partition(dtime=lastdaytime)
+select * from (
+select "jingfen.ts_139_bill_read_day",count(1),nowtime as htime from jingfen.ts_139_bill_read_day where p_day_id=lastdaytime union all
+select "lg_sim_db01.campus_card_user",count(1),nowtime as htime from lg_sim_db01.campus_card_user where p_day_id=lastdaytime union all
+select "inf.inf_manager_userbase_d_result_temp",count(1),nowtime as htime from inf.inf_manager_userbase_d_result_temp where p_acct_month=lastdaytime union all
+select "inf.inf_manager_userlogin_d_result_temp",count(1),nowtime as htime from inf.inf_manager_userlogin_d_result_temp where acct_month=lastdaytime union all
+select "inf.inf_portal_uservisit_d_result_temp",count(1),nowtime as htime from inf.inf_portal_uservisit_d_result_temp where acct_month=lastdaytime union all
+select "inf.inf_client_uservisit_d_result_temp",count(1),nowtime as htime from inf.inf_client_uservisit_d_result_temp where acct_month=lastdaytime union all
+select "inf.inf_client_appuservisit_d_result_temp",count(1),nowtime as htime from inf.inf_client_appuservisit_d_result_temp where acct_month=lastdaytime union all
+select "inf.mid_user_quota_summary_d_result_temp",count(1),nowtime as htime from inf.mid_user_quota_summary_d_result_temp where acct_month=lastdaytime union all
+select "inf.dim_area_result_temp",count(1),nowtime as htime from inf.dim_area_result_temp where acct_month=lastdaytime union all
+select "inf.inf_manager_resourcestatus_d_result_temp_1",count(1),nowtime as htime from inf.inf_manager_resourcestatus_d_result_temp_1 where acct_month=lastdaytime union all
+select "dw1.tw_vgop_appid_w",count(1),nowtime as htime from dw1.tw_vgop_appid_w where p_day_id=lastdaytime union all
+select "lg_hfx_db01.hfx_sendmsg",count(1),nowtime as htime from lg_hfx_db01.hfx_sendmsg where substr(dtime,1,8)=lastdaytime union all
+select "lg_hfx_db01.hfx_indexnumberinfo",count(1),nowtime as htime from lg_hfx_db01.hfx_indexnumberinfo where substr(dtime,1,8)=lastdaytime union all
+select "lg_hfx_db01.hfx_thresholdclicklink",count(1),nowtime as htime from lg_hfx_db01.hfx_thresholdClickLink where substr(dtime,1,8)=lastdaytime union all
+select "lg_hfx_db01.smsapplet_receipt",count(1),nowtime as htime from lg_hfx_db01.smsapplet_receipt where substr(dtime,1,8)=lastdaytime union all
+select "lg_hfx_db01.smsapplet_reportrecipt3rd",count(1),nowtime as htime from lg_hfx_db01.smsapplet_reportrecipt3rd where substr(dtime,1,8)=lastdaytime union all
+select "dw1.dim_auth_all_app_source_day",count(1),nowtime as htime from dw1.dim_auth_all_app_source_day where p_day_id=lastdaytime union all
+select "jingfen.ts_ydyp_rfe_w",count(1),nowtime as htime from jingfen.ts_ydyp_rfe_w where p_day_id=from_unixtime(unix_timestamp("lastdaytime", 'yyyyMMdd') - 86400,'yyyyMMdd') union all
+select "jingfen.ts_ydyp_data_space_day",count(1),nowtime as htime from jingfen.ts_ydyp_data_space_day where p_day_id=from_unixtime(unix_timestamp("lastdaytime", 'yyyyMMdd') - 86400,'yyyyMMdd') union all
+select "lg_sim_db01.campus_card_user_new",count(1),nowtime as htime from lg_sim_db01.campus_card_user_new where p_day_id=lastdaytime union all
+select "hfx_stage.to_rhtx_5gms_sc_zjpro_vgop_d",count(1),nowtime as htime from hfx_stage.to_rhtx_5gms_sc_zjpro_vgop_d where p_day_id=lastdaytime union all
+select "lg_kb_db01.dwd_sjzt_hs_behavior_event_tracking_cjsim_di",count(1),nowtime as htime from lg_kb_db01.dwd_sjzt_hs_behavior_event_tracking_cjsim_di where substr(dtime,1,8)=lastdaytime union all
+select "lg_tyrz_db03.ods_tyrz_h5_auth_idaas_di",count(1),nowtime as htime from lg_tyrz_db03.ods_tyrz_h5_auth_idaas_di where dtime=lastdaytime  
+ 
+) a distribute by lastdaytime

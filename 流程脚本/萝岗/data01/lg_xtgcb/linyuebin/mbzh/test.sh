@@ -1,0 +1,3 @@
+#!/bin/bash
+rm -f TEMP_MATCHED_FILE
+rm -f TEMP_MATCHED_FILE2

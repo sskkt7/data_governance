@@ -1,0 +1,4 @@
+ydy_kb_db01.dwd_5gxth_ywglpt_tds_idol_user_zwqd_df,5G新通话明星来电在网清单表,5g新通话,06010,0.00225567,0.23%,16574705,16537402,20260819
+ydy_dim_db01.dim_yzd_ysj_t_terminal_platform_type_df,终端平台类型维表,云手机,44001,0,0.00%,6,6,20260819
+ydy_dim_db01.dim_yzd_ysj_media_type_df,媒介类型维表,云手机,17301,0,0.00%,7,7,20260819
+ydy_kb_db01.dwd_zjh_zypt_auth_num_df,中间号信息,和多号,14225,0.000131938,0.01%,10855007,10853575,20260819

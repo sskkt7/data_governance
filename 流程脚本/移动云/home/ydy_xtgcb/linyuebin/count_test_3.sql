@@ -1,0 +1,61 @@
+insert into table  ydy_dg_db01.ods_dg_hive_table_cnt_hour_di partition(dtime=lastdaytime,htime=nowtime)
+select * from (
+
+	select "ydy_vogp_db01.ts_139mail_classification_d",count(1) from ydy_vogp_db01.ts_139mail_classification_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_139mail_product_d",count(1) from ydy_vogp_db01.ts_139mail_product_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_139mail_u_list_page_list_d",count(1) from ydy_vogp_db01.ts_139mail_u_list_page_list_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_139mail_register_list_d",count(1) from ydy_vogp_db01.ts_139mail_register_list_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_139mail_u_service_u_list_d",count(1) from ydy_vogp_db01.ts_139mail_u_service_u_list_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_139mail_us_types_list_d",count(1) from ydy_vogp_db01.ts_139mail_us_types_list_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_139mail_pla_bus_ind_d",count(1) from ydy_vogp_db01.ts_139mail_pla_bus_ind_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_139mail_source_channel_info_d",count(1) from ydy_vogp_db01.ts_139mail_source_channel_info_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_139mail_added_fun_be_cate_d",count(1) from ydy_vogp_db01.ts_139mail_added_fun_be_cate_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_139mail_product_cate_d",count(1) from ydy_vogp_db01.ts_139mail_product_cate_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_139mial_quality_mon_in_d",count(1) from ydy_vogp_db01.ts_139mial_quality_mon_in_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_139mail_us_register_list_d",count(1) from ydy_vogp_db01.ts_139mail_us_register_list_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_139mail_reach_us_info_d",count(1) from ydy_vogp_db01.ts_139mail_reach_us_info_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_139mail_deliver_b_send_det_d",count(1) from ydy_vogp_db01.ts_139mail_deliver_b_send_det_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_139mail_logon_site_info_d",count(1) from ydy_vogp_db01.ts_139mail_logon_site_info_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_139mail_use_category_info_d",count(1) from ydy_vogp_db01.ts_139mail_use_category_info_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_139mail_digit_dict_d",count(1) from ydy_vogp_db01.ts_139mail_digit_dict_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_139mail_product_info_config_d",count(1) from ydy_vogp_db01.ts_139mail_product_info_config_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_139mail_us_own_client_list_d",count(1) from ydy_vogp_db01.ts_139mail_us_own_client_list_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_139mail_us_cloud_post_info_d",count(1) from ydy_vogp_db01.ts_139mail_us_cloud_post_info_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_139mail_keynote_mon_dail_d",count(1) from ydy_vogp_db01.ts_139mail_keynote_mon_dail_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_sales_easy_act_list",count(1) from ydy_vogp_db01.ts_sales_easy_act_list where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_sales_easy_invited_list",count(1) from ydy_vogp_db01.ts_sales_easy_invited_list where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_sales_easy_act_detailed_list",count(1) from ydy_vogp_db01.ts_sales_easy_act_detailed_list where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_hcy_idol_cloud_page_d",count(1) from ydy_vogp_db01.ts_hcy_idol_cloud_page_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_hcy_idol_cloud_secondary_page",count(1) from ydy_vogp_db01.ts_hcy_idol_cloud_secondary_page where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_139mail_sms_downlink_d",count(1) from ydy_vogp_db01.ts_139mail_sms_downlink_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_ydyp_us_invite_code_be_d",count(1) from ydy_vogp_db01.ts_ydyp_us_invite_code_be_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_hcy_external_link_info_d",count(1) from ydy_vogp_db01.ts_hcy_external_link_info_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_ydyp_notebook_d",count(1) from ydy_vogp_db01.ts_ydyp_notebook_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_ydyp_note_data_d",count(1) from ydy_vogp_db01.ts_ydyp_note_data_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_ydyp_wps_document_d",count(1) from ydy_vogp_db01.ts_ydyp_wps_document_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_ydyp_keynote_monitor_d",count(1) from ydy_vogp_db01.ts_ydyp_keynote_monitor_d where p_day_id=lastdaytime union all
+	select "ydy_vogp_db01.ts_139mail_rfe_model_d",count(1) from ydy_vogp_db01.ts_139mail_rfe_model_d where p_day_id=from_unixtime(unix_timestamp("lastdaytime", 'yyyyMMdd') - 86400,'yyyyMMdd') union all
+	select "hly_bas.tar_detail_vgop_f_rfe_daily",count(1) from hly_bas.tar_detail_vgop_f_rfe_daily where replace(dt,'-','')=from_unixtime(unix_timestamp("lastdaytime", 'yyyyMMdd') - 86400,'yyyyMMdd') union all
+       select "ydy_vogp_db01.ts_vgop_ydyp_zxy_order_d",count(1) from ydy_vogp_db01.ts_vgop_ydyp_zxy_order_d where p_day_id=lastdaytime union all
+select "ydy_vogp_db01.ts_ysj_order_relat_d",count(1) from ydy_vogp_db01.ts_ysj_order_relat_d where p_day_id=lastdaytime union all
+select "ydy_vogp_db01.ts_ysj_dim_classifyn_d",count(1) from ydy_vogp_db01.ts_ysj_dim_classifyn_d where p_day_id=lastdaytime union all
+select "ydy_vogp_db01.ts_vgop_zjh_14225_day",count(1) from ydy_vogp_db01.ts_vgop_zjh_14225_day where p_day_id=lastdaytime union all
+select "ydy_vogp_db01.ts_vgop_zjh_14224_day",count(1) from ydy_vogp_db01.ts_vgop_zjh_14224_day where p_day_id=lastdaytime union all
+select "ydy_sjznew_db01.imp_yzd_ysj_mid_product_item_day_orc_df",count(1) from ydy_sjznew_db01.imp_yzd_ysj_mid_product_item_day_orc_df where dtime=lastdaytime union all
+select "ydy_sjznew_db01.imp_yzd_ysj_tb_dwd_mid_product_item_specification_day_is_df",count(1) from ydy_sjznew_db01.imp_yzd_ysj_tb_dwd_mid_product_item_specification_day_is_df where dtime=lastdaytime union all
+select "ydy_kb_db01.dwd_yzd_ysj_cloudphone_aiuser_activity_di",count(1) from ydy_kb_db01.dwd_yzd_ysj_cloudphone_aiuser_activity_di where dtime=lastdaytime union all
+select "ydy_kb_db01.dwd_sjzt_hs_behavior_event_tracking_139mail_di",count(1) from ydy_kb_db01.dwd_sjzt_hs_behavior_event_tracking_139mail_di where dtime=lastdaytime union all
+select "ydy_kb_db01.dwd_yzd_ysj_std_log_basedata_app_di",count(1) from ydy_kb_db01.dwd_yzd_ysj_std_log_basedata_app_di where dtime=lastdaytime union all
+select "ydy_vogp_db01.ts_139mail_u_active_lette_d",count(1) from ydy_vogp_db01.ts_139mail_u_active_lette_d where p_day_id=lastdaytime union all
+select "ydy_kb_db01.dwd_yzd_ysj_ability_invocation_day_di",count(1) from ydy_kb_db01.dwd_yzd_ysj_ability_invocation_day_di where dtime=lastdaytime union all
+select "ydy_kb_db01.dwd_zjh_zypt_auth_channel_df",count(1) from ydy_kb_db01.dwd_zjh_zypt_auth_channel_df where dtime=lastdaytime union all
+select "ydy_sjznew_db01.imp_ywglpt_jzywpt_ascend_resource_usage_stats_df",count(1) from ydy_sjznew_db01.imp_ywglpt_jzywpt_ascend_resource_usage_stats_df where dtime=lastdaytime union all
+select "ydy_sjznew_db01.imp_ydyp_ods_mas_t_cloud_record_2026_df",count(1) from ydy_sjznew_db01.imp_ydyp_ods_mas_t_cloud_record_2026_df where dtime=lastdaytime union all
+select "ydy_sjznew_db01.imp_ydyp_mas_t_clouduser_2026_df",count(1) from ydy_sjznew_db01.imp_ydyp_mas_t_clouduser_2026_df where dtime=lastdaytime union all
+select "ydy_kb_db01.dwd_szshpt_user_level_query_message_di",count(1) from ydy_kb_db01.dwd_szshpt_user_level_query_message_di where dtime=lastdaytime union all
+select "ydy_sjznew_db01.imp_dxzt_ap_white_black_user_di",count(1) from ydy_sjznew_db01.imp_dxzt_ap_white_black_user_di where dtime=lastdaytime union all
+select "ydy_sjznew_db01.imp_ydyp_dw_dwd_burpoint_cloud_protocol_d_di",count(1) from ydy_sjznew_db01.imp_ydyp_dw_dwd_burpoint_cloud_protocol_d_di where dtime=lastdaytime union all
+select "ydy_kb_db01.dwd_yzd_ysj_std_app_visit_log_di",count(1) from ydy_kb_db01.dwd_yzd_ysj_std_app_visit_log_di where dtime=lastdaytime -- union all
+-- select "ydy_sjznew_db01.imp_ydyp_ods_mas_t_common_marketconfig_df",count(1) from ydy_sjznew_db01.imp_ydyp_ods_mas_t_common_marketconfig_df where dtime=lastdaytime 
+
+) a distribute by lastdaytime

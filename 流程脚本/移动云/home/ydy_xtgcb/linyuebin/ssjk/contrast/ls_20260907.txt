@@ -1,0 +1,8 @@
+ydy_hly_db02.ods_hly_anylog_hi 9994546725
+ydy_hly_db02.ods_hly_weblog_hi  1613201
+ydy_sjzt_hs_db01.ods_sjzt_hs_behavior_event_etl_tracking_di 63169493472
+ydy_sjzt_hs_db01.ods_sjzt_hs_behavior_event_tracking_di 66180121095
+ydy_tyrz_db03.tyrz_rh_analysis 37205020365
+ydy_tyrz_db03.tyrz_umc_https_new 277561661962
+ydy_tyrz_db03.ods_tyrz_umc_uaidhttps_di_new 137825646694
+ydy_tyrz_db03.ods_tyrz_h5_auth_idaas_di 2365223350

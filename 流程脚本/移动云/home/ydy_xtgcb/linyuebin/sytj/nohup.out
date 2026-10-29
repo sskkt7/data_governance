@@ -1,0 +1,57 @@
+
+文件第三列存在0值，继续执行后续命令
+文件第三列存在0值，继续执行后续命令
+执行后续命令...
+生成的 SQL 查询语句如下：
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/bch/3.0.1/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/bch/3.0.1/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+Aug 27 17:28:12 b73-gz3-sjjcpt-js-059 sendEmail[3095829]: Email was sent successfully!
+文件不存在，继续执行后续命令
+执行后续命令...
+生成的 SQL 查询语句如下：
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/bch/3.0.1/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/bch/3.0.1/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+Aug 27 18:13:57 b73-gz3-sjjcpt-js-059 sendEmail[1722205]: Email was sent successfully!
+文件不存在，继续执行后续命令
+执行后续命令...
+生成的 SQL 查询语句如下：
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/bch/3.0.1/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/bch/3.0.1/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+Aug 28 09:14:22 b73-gz3-sjjcpt-js-059 sendEmail[2347758]: Email was sent successfully!
+文件第三列存在0值，继续执行后续命令
+执行后续命令...
+生成的 SQL 查询语句如下：
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/bch/3.0.1/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/bch/3.0.1/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+Aug 28 12:19:07 b73-gz3-sjjcpt-js-059 sendEmail[1844668]: Email was sent successfully!
+文件不足19行，已删除
+文件不存在，继续执行后续命令
+执行后续命令...
+生成的 SQL 查询语句如下：
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/bch/3.0.1/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/bch/3.0.1/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+Feb 16 16:11:35 b73-gz3-sjjcpt-js-059 sendEmail[423854]: Email was sent successfully!
+文件第三列存在0值，继续执行后续命令
+执行后续命令...
+生成的 SQL 查询语句如下：
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/bch/3.0.1/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/bch/3.0.1/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+May 28 11:00:13 b73-gz3-sjjcpt-js-059 sendEmail[3276123]: Email was sent successfully!

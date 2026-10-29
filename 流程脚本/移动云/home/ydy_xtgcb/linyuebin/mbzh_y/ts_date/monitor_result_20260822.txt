@@ -1,0 +1,6 @@
+ydy_hly_db02.ods_hly_anylog_hi,20260822,已创建分区
+ydy_hly_db02.ods_hly_weblog_hi,20260822,已创建分区
+ydy_tyrz_db03.tyrz_umc_https_new,20260822,已创建分区
+ydy_tyrz_db03.ods_tyrz_umc_uaidhttps_di_new,20260822,已创建分区
+ydy_tyrz_db03.tyrz_rh_analysis,20260822,已创建分区
+ydy_sjzt_hs_db01.ods_sjzt_hs_behavior_event_etl_tracking_di,20260822,已创建分区

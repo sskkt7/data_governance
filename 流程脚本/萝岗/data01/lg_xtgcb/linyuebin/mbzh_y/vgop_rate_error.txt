@@ -1,0 +1,43 @@
+巡检时间：2025-02-25 12:24:21
+VGOP接口数据波动情况--vgop波动超10%清单
+表名,表中文名,业务,接口,波动率,t+1数据量,t+2数据量,日期
+lg_sim_db01.tml_auth_sup_sim_active_usr_day_new,超级SIM活跃用户清单日表,超级SIM,73203,3.31366,1821627,422293,20250224
+lg_sim_db01.tml_hair_goods_code_active_usr_day,超级SIM付费用户活跃清单日表,超级SIM,09002,1.73299,48751,17838,20250224
+dx_dw.dw_dxxcx_vgop_28217_for_check,28217链接访问数据_字段监控校验,5G消息,28217,0.111498,667460,600505,20250224
+dx_dw.dw_dxxcx_vgop_28218,28218账单访问数据,5G消息,28218,-0.147898,15020,17627,20250224
+dx_dw.dw_dxxcx_vgop_28220_for_check,28220短小2解析日志数据_字段监控校验,5G消息,28220,0.383036,5169970,3738132,20250224
+lg_kb_db01.dwd_5gxth_ywglpt_newcall_cdr_di,新通话话单表,5G新通话,14001,0.173228,10526746,8972463,20250224
+lg_kb_db01.dwd_5gxth_ywglpt_tds_idol_set_all_his_di,爱豆来电用户_设置_清单,5G新通话,20014,4.49768,218280,39704,20250224
+VGOP接口数据波动情况--vgop未到大数据清单
+表名,表中文名,业务,接口,波动率,t+1数据量,t+2数据量,日期
+dw1.tw_auth_user_login_vgop_day,统一认证用户登录日志VGOP接口,移动认证,27201,-1,0,1714575475,20250224
+lg_kb_db01.dwd_yzd_ysj_t_imei_org_di,云手机预装设备表,云手机,17101、13001、17204,NaN,0,0,20250224
+累计检测28个vgop资产波动情况
+VGOP基础数据监控情况
+表名,表中文名,数据量,日期,业务,接口
+lg_kb_db01.dwd_yzd_ysj_t_imei_org_di,云手机预装设备表,0,20250224,云手机,17101、13001、17204
+累计检测61个vgop资产完整性情况
+实时监控情况
+表名,是否告警（0：告警，1：不告警）,查询时间
+lg_hfx_db01.smsapplet_receipt,1,2025-02-25 12:02:42
+lg_hfx_db01.hfx_clicklink,1,2025-02-25 12:02:42
+lg_hfx_db01.hfx_sendmsg,1,2025-02-25 12:02:42
+lg_hfx_db01.hfx_indexnumberinfo,1,2025-02-25 12:02:42
+lg_hfx_db01.hfx_thresholdclicklink,1,2025-02-25 12:02:42
+lg_hfx_db01.smsapplet_reportrecipt3rd,1,2025-02-25 12:02:42
+lg_hfx_db01.smsapplet_h5webrouter,1,2025-02-25 12:02:42
+lg_hfx_db01.hfx_cspchatbot,1,2025-02-25 12:02:42
+lg_cjsimrz_db01.cjsim_sim_analysis,1,2025-02-25 12:02:42
+lg_caiyun_db1.hcy_apm_cellinfo,1,2025-02-25 12:02:42
+lg_tyrz_db03.tyrz_rh_analysis,1,2025-02-25 12:02:42
+lg_tyrz_db03.tyrz_umc_https_new,1,2025-02-25 12:02:42
+lg_tyrz_db03.tyrz_openapilog,1,2025-02-25 12:02:42
+lg_tyrz_db03.tyrz_dn_analysis,1,2025-02-25 12:02:42
+lg_tyrz_db03.tyrz_umc_wabp_elk,1,2025-02-25 12:02:42
+lg_tyrz_db03.tyrz_micro_us_new,1,2025-02-25 12:02:42
+lg_tyrz_db03.tyrz_yz_analysis,1,2025-02-25 12:02:42
+lg_tyrz_db03.tyrz_dnrhsdk,1,2025-02-25 12:02:42
+lg_kb_db01.ods_apm_sdk_device_d,1,2025-02-25 12:02:42
+字段监控情况
+包含库名,表类型,接口编码,英文字段名,问题类型（1-空值问题，2-枚举值问题 3-字段格式问题 4-唯一性问题）,问题数量,总数量,问题占比,查询时间,所属集群,数据日期
+

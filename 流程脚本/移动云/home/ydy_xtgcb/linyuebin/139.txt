@@ -1,0 +1,1 @@
+7258916820  21776750460  hdfs://ns1/user/bdoc/33/hive/ydy_kb_db01/dwd_sjzt_hs_behavior_event_tracking_139mail_di/dtime=20260906

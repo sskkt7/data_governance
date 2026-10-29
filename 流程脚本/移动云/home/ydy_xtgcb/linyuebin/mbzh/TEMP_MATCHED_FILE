@@ -1,0 +1,3 @@
+ydy_kb_db01.dwd_zjh_zypt_config_province_df|省份信息|dtime|date_format(date_sub(current_date,1),'yyyyMMdd')
+ydy_kb_db01.dwd_5gxth_ywglpt_tds_idol_user_zwqd_df|5G新通话明星来电在网清单表|dtime|date_format(date_sub(current_date,1),'yyyyMMdd')
+ydy_sjznew_db01.imp_ydyp_ods_mas_t_caiyunmarket_prizepool_df||dtime|date_format(date_sub(current_date,1),'yyyyMMdd')

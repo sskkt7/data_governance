@@ -1,0 +1,4 @@
+ydy_vogp_db01.ts_hdh_car2_user_24207_m,和多号,24207,NULL,NULL,NULL,NULL,20260831
+hly_bas.rpt_vgop_business_daily,和留言,13102,NULL,NULL,NULL,NULL,20260831
+ydy_vogp_db01.ts_enterp_user_m,139邮箱,14222,NULL,NULL,NULL,NULL,20260831
+ydy_vogp_db01.ts_139mail_reach_us_info_m,139邮箱,14212,1007895322,1004878619,0.0,1,20260831

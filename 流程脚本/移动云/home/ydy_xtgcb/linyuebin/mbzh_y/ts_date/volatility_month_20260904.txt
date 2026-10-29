@@ -1,0 +1,4 @@
+ydy_vogp_db01.ts_ydyp_group_member_info_m,移动云盘,14227,61720296,61559961,0.0,1,20260904
+ydy_vogp_db01.ts_ydyp_album_info_m,移动云盘,14228,983737553,963408558,0.02,1,20260904
+ydy_vogp_db01.ts_qyzx_act_channel_info_m,权益中心,44005,3729,3681,0.01,1,20260904
+ydy_vogp_db01.ts_5gqx_2b2c_list_m,5G快签,27202,20096896,19601449,0.03,1,20260904

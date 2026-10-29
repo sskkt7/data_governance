@@ -1,0 +1,8 @@
+hdfs://ns1/user/ydy_hly_user16/data/flink_v3/anylog/,/,/,ydy_hly_db02.ods_hly_anylog_hi
+hdfs://ns1/user/ydy_hly_user16/data/flink_v3/weblog/,/,/,ydy_hly_db02.ods_hly_weblog_hi 
+hdfs://ns1/user/ydy_dsjhsjq_user38/data/flink_v6/volcengine-behavior-event/,/,/,ydy_sjzt_hs_db01.ods_sjzt_hs_behavior_event_etl_tracking_di
+hdfs://ns1/user/ydy_dsjhsjq_user38/data/flink_v2/volcengine-behavior-event/,/,/,ydy_sjzt_hs_db01.ods_sjzt_hs_behavior_event_tracking_di
+hdfs://ns1/user/ydy_tyrz_user31/data/flink_VGOP/rhsdk/,/,/,ydy_tyrz_db03.tyrz_rh_analysis
+hdfs://ns1/user/ydy_tyrz_user31/data/flink_VGOP/https/,/,/,ydy_tyrz_db03.tyrz_umc_https_new
+hdfs://ns1/user/ydy_tyrz_user31/data/flink_VGOP/uaidhttps/,/,/,ydy_tyrz_db03.ods_tyrz_umc_uaidhttps_di_new
+hdfs://ns1/user/ydy_tyrz_user31/data/flink_v1/h5authidaas/,/,/,ydy_tyrz_db03.ods_tyrz_h5_auth_idaas_di

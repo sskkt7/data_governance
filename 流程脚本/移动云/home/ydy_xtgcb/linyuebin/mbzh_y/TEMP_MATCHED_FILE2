@@ -1,0 +1,13 @@
+set mapreduce.map.memory.mb=6144;
+set mapreduce.map.java.opts=-Xmx4608m;
+set mapreduce.job.priority=HIGH;
+select 'ydy_vogp_db01.tw_cloud_phone_key_monit_17101_d','云手机重点监控日指标',count(1),date_format(date_sub(current_date,2),'yyyyMMdd') from ydy_vogp_db01.tw_cloud_phone_key_monit_17101_d where p_day_id=date_format(date_sub(current_date,2),'yyyyMMdd') union all
+select 'ydy_vogp_db01.ts_hdh_car2_user_24207_d','第二卡槽用户明细_日',count(1),date_format(date_sub(current_date,2),'yyyyMMdd') from ydy_vogp_db01.ts_hdh_car2_user_24207_d where p_day_id=date_format(date_sub(current_date,2),'yyyyMMdd') union all
+select 'ydy_vogp_db01.ts_ysj_qpjl_d','云手机抢盘激励用户明细表',count(1),date_format(date_sub(current_date,2),'yyyyMMdd') from ydy_vogp_db01.ts_ysj_qpjl_d where p_day_id=date_format(date_sub(current_date,2),'yyyyMMdd') union all
+select 'ydy_vogp_db01.ts_sales_easy_act_list','66201销售易的扫码邀请行为清单',count(1),date_format(date_sub(current_date,2),'yyyyMMdd') from ydy_vogp_db01.ts_sales_easy_act_list where p_day_id=date_format(date_sub(current_date,2),'yyyyMMdd') union all
+select 'ydy_vogp_db01.ts_sales_easy_invited_list','66202销售易被邀请用户行为清单',count(1),date_format(date_sub(current_date,2),'yyyyMMdd') from ydy_vogp_db01.ts_sales_easy_invited_list where p_day_id=date_format(date_sub(current_date,2),'yyyyMMdd') union all
+select 'ydy_vogp_db01.ts_sales_easy_act_detailed_list','66203销售易邀请应用行为匹配明细清单',count(1),date_format(date_sub(current_date,2),'yyyyMMdd') from ydy_vogp_db01.ts_sales_easy_act_detailed_list where p_day_id=date_format(date_sub(current_date,2),'yyyyMMdd') union all
+select 'ydy_vogp_db01.ts_hcy_idol_cloud_page_d','20034爱豆云盘珍藏一级页面',count(1),date_format(date_sub(current_date,2),'yyyyMMdd') from ydy_vogp_db01.ts_hcy_idol_cloud_page_d where p_day_id=date_format(date_sub(current_date,2),'yyyyMMdd') union all
+select 'ydy_vogp_db01.ts_hcy_idol_cloud_secondary_page','20035爱豆云盘珍藏二级页面',count(1),date_format(date_sub(current_date,2),'yyyyMMdd') from ydy_vogp_db01.ts_hcy_idol_cloud_secondary_page where p_day_id=date_format(date_sub(current_date,2),'yyyyMMdd') union all
+select 'ydy_vogp_db01.ts_hcy_external_link_info_d','71214外链信息总表',count(1),date_format(date_sub(current_date,2),'yyyyMMdd') from ydy_vogp_db01.ts_hcy_external_link_info_d where p_day_id=date_format(date_sub(current_date,2),'yyyyMMdd') union all
+select 'ydy_vogp_db01.ts_ydyp_us_invite_code_be_d','71207用户使用邀请码邀请行为表',count(1),date_format(date_sub(current_date,2),'yyyyMMdd') from ydy_vogp_db01.ts_ydyp_us_invite_code_be_d where p_day_id=date_format(date_sub(current_date,2),'yyyyMMdd') 

@@ -1,0 +1,72 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/bch/3.0.1/hive/lib/log4j-slf4j-impl-2.17.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/bch/3.0.1/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+25/03/05 08:40:17 [main]: INFO jdbc.HiveConnection: Connected to H10-LGJF-PA-ZYC-SV391-1288V5-YY:10000
+
+
+   
+
+   
+
+生成的 SQL 查询语句如下：
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/bch/3.0.1/hive/lib/log4j-slf4j-impl-2.17.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/bch/3.0.1/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+25/03/05 08:42:28 [main]: INFO jdbc.HiveConnection: Connected to H10-LGJF-PA-ZYC-SV393-1288V5-YY:10000
+
+
+   
+  
+   
+  
+   
+   
+  
+  
+   
+   
+   
+  
+  
+  
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/bch/3.0.1/hive/lib/log4j-slf4j-impl-2.17.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/bch/3.0.1/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+25/03/05 08:51:17 [main]: INFO jdbc.HiveConnection: Connected to H10-LGJF-PA-ZYC-SV386-1288V5-YY:10000
+
+
+   
+
+   
+
+生成的 SQL 查询语句如下：
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/bch/3.0.1/hive/lib/log4j-slf4j-impl-2.17.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/bch/3.0.1/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+25/03/05 08:53:19 [main]: INFO jdbc.HiveConnection: Connected to H10-LGJF-PA-ZYC-SV390-1288V5-YY:10000
+
+
+  
+  
+处理完成，结果已保存到 /data01/lg_xtgcb/linyuebin/mbzh_y/vgop_rate_result.txt
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/bch/3.0.1/hive/lib/log4j-slf4j-impl-2.17.2.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/bch/3.0.1/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+25/03/05 08:58:39 [main]: INFO jdbc.HiveConnection: Connected to H11-LGJF-PA-ZYC-SV054-2288HV5-HADOOP:10000
+
+
+ 
+    
+
+
+Mar 05 09:01:22 g06-lgjf-pa-zyc-sv066-2288hv5-hadoop sendEmail[39193]: Email was sent successfully!

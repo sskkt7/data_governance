@@ -1,0 +1,1 @@
+sudo find /data01/lg_xtgcb/linyuebin/ -type f -size -1024k | sudo awk -F/ '{dir=$0; sub(/\/[^\/]*$/,"",dir); d[dir]++; f[NR]=$0; fd[$0]=dir} END{for(i=1;i<=NR;i++){dir=fd[f[i]]; if(d[dir]<=30) print f[i]}}' | sudo zip -r /data01/lg_xtgcb/xiechangwang/output.zip -@

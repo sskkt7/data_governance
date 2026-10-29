@@ -1,0 +1,8 @@
+dx_dw.dw_dxxcx_vgop_28220_for_check,28220短小2解析日志数据_字段监控校验,0,20260905
+dx_dw.dw_dxxcx_vgop_28217_for_check,28217链接访问数据_字段监控校验,0,20260905
+dx_dw.dw_dxxcx_vgop_28219_for_check,28219链接登录数据_字段监控校验,0,20260905
+lg_sim_db01.campus_card_user,校园卡用户业务已开通信息,0,20260905
+lg_kb_db01.dwd_yzd_ysj_t_imei_org_di,云手机预装设备表,0,20260905
+dx_ods.ods_dxxcx1_sendmsg_log,ods_dxxcx1_sendmsg_log,0,20260905
+dw1.tw_vgop_appid_w,移动认证周渗透率app表,0,20260905
+dx_dw.dw_dxxcx_vgop_28218,28218账单访问数据,0,20260905

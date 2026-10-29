@@ -1,0 +1,6 @@
+
+lg_hfx_db01.smsapplet_h5webrouter,hdfs://gdhlwtz/user/lg_hfx_user18/data/flinkas _smsappletv2/h5webRouter/2024/07/11,,连接错误或路径不存在,2024-07-11 10:37:53
+lg_hfx_db01.smsapplet_h5webrouter,hdfs://gdhlwtz/user/lg_hfx_user18/data/flinkas _smsappletv2/h5webRouter/2024/07/17,,连接错误或路径不存在,2024-07-17 09:09:45
+lg_kb_db01.dwd_5gxx_dxxcx_hfx_converturl_hi,hdfs://gdhlwtz/user/bdoc/95/hive/lg_kb_db01/dwd_5gxx_dxxcx_hfx_converturl_hi/htime=20240717*/,,连接错误或路径不存在,2024-07-17 09:09:55
+lg_hfx_db01.smsapplet_h5webrouter,hdfs://gdhlwtz/user/lg_hfx_user18/data/flinkas _smsappletv2/h5webRouter/2024/07/17,,连接错误或路径不存在,2024-07-17 09:12:19
+lg_kb_db01.dwd_5gxx_dxxcx_hfx_converturl_hi,hdfs://gdhlwtz/user/bdoc/95/hive/lg_kb_db01/dwd_5gxx_dxxcx_hfx_converturl_hi/htime=20240717*/,,连接错误或路径不存在,2024-07-17 09:12:29

@@ -1,0 +1,12 @@
+15381448  46144344  hdfs://gdhlwtz/user/bdoc/95/hive/lg_kb_db01/dwd_cjsim_sim_operation_log_df/dtime=20240701
+106679942430  320039827290  hdfs://gdhlwtz/user/bdoc/95/hive/lg_kb_db01/dwd_ydyp_orddb_ord_t_subscribe_itemwrapper_df/dtime=20240701
+66129321479  198387964437  hdfs://gdhlwtz/user/bdoc/95/hive/lg_kb_db01/dwd_ydyp_subdb_sub_t_contract_sub_merecord_df/dtime=20240701
+31384  94152  hdfs://gdhlwtz/user/bdoc/95/hive/lg_kb_db01/dwd_fsxt_yyff_mm_complaint_share_di/dtime=20240701
+423571145  1270713435  hdfs://gdhlwtz/user/bdoc/95/hive/lg_kb_db01/dwd_cjsim_sim_business_ability_call_df/dtime=20240701
+1070600  3211800  hdfs://gdhlwtz/user/bdoc/95/hive/lg_kb_db01/dwd_cjsim_sim_business_ability_call_count_df/dtime=20240701
+3406312448  10218937344  hdfs://gdhlwtz/user/bdoc/95/hive/lg_kb_db01/dwd_cjsim_wap_sim_business_card_ability_call_df/dtime=20240701
+73257  219771  hdfs://gdhlwtz/user/bdoc/95/hive/lg_kb_db01/dwd_cjsim_sim_business_order_df/dtime=20240701
+133344  400032  hdfs://gdhlwtz/user/bdoc/95/hive/lg_kb_db01/dwd_cjsim_sim_merchant_df/dtime=20240701
+90253  270759  hdfs://gdhlwtz/user/bdoc/95/hive/lg_kb_db01/dwd_cjsim_sim_merchant_contract_df/dtime=20240701
+71662  214986  hdfs://gdhlwtz/user/bdoc/95/hive/lg_kb_db01/dwd_cjsim_sys_user_df/dtime=20240701
+139612  418836  hdfs://gdhlwtz/user/bdoc/95/hive/lg_kb_db01/dwd_cjsim_sim_application_df/dtime=20240701

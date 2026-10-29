@@ -1,0 +1,5 @@
+/home/ydy_xtgcb/linyuebin/storage/orgResult/orgResult20260907.csv
+count: Permission denied: user=ydy_xtgcb_user18, access=READ_EXECUTE, inode="/user/ydy_sjd_user09":ydy_sjd_user09:bdocadm:drwxrwx---
+count: Permission denied: user=ydy_xtgcb_user18, access=READ_EXECUTE, inode="/user/ydy_ywglxt_mjfbpt_user95":ydy_ywglxt_mjfbpt_user95:bdocadm:drwxrwx---
+count: Permission denied: user=ydy_xtgcb_user18, access=READ_EXECUTE, inode="/user/ydy_zntpt_user101":ydy_zntpt_user101:bdocadm:drwxrwx---
+count: Permission denied: user=ydy_xtgcb_user18, access=READ_EXECUTE, inode="/user/ydy_aqgkjcss_user102":ydy_aqgkjcss_user102:bdocadm:drwxrwx---

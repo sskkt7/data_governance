@@ -1,0 +1,7 @@
+lg_hfx_db01.smsapplet_receipt,hdfs://gdhlwtz/user/lg_hfx_user18/data/flink_smsappletv2/Receipt/2024/07/11,574788097,返回正常,2024-07-11 10:37:23
+lg_hfx_db01.hfx_clicklink,hdfs://gdhlwtz/user/lg_hfx_user18/data/flink_smsappletv1/clickLink/2024/07/11,26755928,返回正常,2024-07-11 10:37:28
+lg_hfx_db01.hfx_sendmsg,hdfs://gdhlwtz/user/lg_hfx_user18/data/flink_smsappletv1/sendMsg/2024/07/11,1840685,返回正常,2024-07-11 10:37:33
+lg_hfx_db01.hfx_indexnumberinfo,hdfs://gdhlwtz/user/lg_hfx_user18/data/flink_smsappletv1/indexNumberInfo/2024/07/11,24105050,返回正常,2024-07-11 10:37:38
+lg_hfx_db01.hfx_thresholdclicklink,hdfs://gdhlwtz/user/lg_hfx_user18/data/flink_smsappletv1/thresholdClickLink/2024/07/11,16119257,返回正常,2024-07-11 10:37:43
+lg_hfx_db01.smsapplet_reportrecipt3rd,hdfs://gdhlwtz/user/lg_hfx_user18/data/flink_smsappletv2/reportRecipt3rd/2024/07/11,81523175,返回正常,2024-07-11 10:37:48
+lg_hfx_db01.hfx_cspchatbot,hdfs://gdhlwtz/user/lg_5ginfo_user64/data/flink_CSP/5gcsp_chatboth5/2024/07/11,2013153,返回正常,2024-07-11 10:37:58
